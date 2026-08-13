@@ -9,6 +9,9 @@ buttons.forEach(btn => {
     if (value === 'C') {
       current = '';
       display.value = '';
+    } else if (value === '⌫') {
+      current = current.slice(0, -1); // remove last character
+      display.value = current;
     } else if (value === '=') {
       try {
         current = eval(current).toString();

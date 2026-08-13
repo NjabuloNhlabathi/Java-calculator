@@ -48,3 +48,11 @@ button:hover { background: #666; }
 .operator { background: #ff9500; }
 .equal { background: #28a745; }
 .clear { background: #dc3545; }
+
+.backspace {
+  background: #007bff;
+}
+.backspace:hover {
+  background: #3399ff;
+}
+
